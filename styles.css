@@ -241,8 +241,12 @@ header .header-link {
 }
 
 @media only screen and (min-width: 1000px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
     .index-banner {
-        width: 100%;
         height: 450px;
     }
 
@@ -250,6 +254,28 @@ header .header-link {
         display: block;
         width: 560px;
         margin: 0 auto;
+    }
+
+    .index-links {
+        overflow: hidden;
+    }
+
+    .index-links div {
+        margin: 20px 10px 0;
+        height: 230px;
+        float: left;
+    }
+
+    .index-boxlink-square {
+        width: calc(25% - 20px) !important;
+    }
+
+    .index-boxlink-rectangle {
+        width: calc(50% - 20px) !important;
+    }
+
+    .index-links div h3 {
+        line-height: 230px;
     }
 }
 
