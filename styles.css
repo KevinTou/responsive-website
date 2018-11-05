@@ -300,6 +300,7 @@ header .header-link {
     font-weight: 600;
     color: #111;
     text-transform: uppercase;
+    margin-left: 10px;
 }
 
 .theme-links .theme-link p {
