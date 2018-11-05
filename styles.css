@@ -337,6 +337,42 @@ header .header-link {
     }
 }
 
+/* THEME */
+
+.theme-showcase h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.theme-showcase figure img {
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.theme-showcase article h3 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+.theme-showcase article p {
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #111;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
 /* FOOTER */
 
 footer {
@@ -360,7 +396,7 @@ footer ul li {
 
 footer ul li a {
     font-family: Catamaran;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
     line-height: 40px;
 }
