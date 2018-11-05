@@ -287,6 +287,58 @@ header .header-link {
     }
 }
 
+/* THEMES */
+
+.theme-links {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.theme-links h2 {
+    font-family: Catamaran;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.theme-links .theme-link p {
+    padding-top: 45%;
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight: 600;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.theme-links .theme-link {
+    float: left;
+    width: 230px;
+    height: 230px;
+    margin: 20px 10px 0px;
+    background-color: #e3e3e3;
+}
+
+@media only screen and (max-width: 497px) {
+    .theme-links {
+        margin-bottom: 10px;
+    }
+
+    .theme-links h2 {
+        text-align: center;
+    }
+    .theme-links .theme-link {
+        width: calc(100% - 20px);
+        margin: 10px ;
+    }
+
+    .theme-links .theme-link p {
+        padding: 0px;
+        line-height: 230px;
+    }
+}
+
 /* FOOTER */
 
 footer {
