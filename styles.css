@@ -326,9 +326,6 @@ header .header-link {
         margin-bottom: 10px;
     }
 
-    .theme-links h2 {
-        text-align: center;
-    }
     .theme-links .theme-link {
         width: calc(100% - 20px);
         margin: 10px ;
